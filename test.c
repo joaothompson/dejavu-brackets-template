@@ -1,12 +1,9 @@
-#include <student.h>
+#include "student.h"
 #include <stdio.h>
+
 
 int main(void)
 {
-  char str[129];
-  int total;
-  scanf("%s", str);
-  total = simple_parentheses(str);
-  printf("%d\n", total);
+  simple_parentheses();
   return 0;
 }
